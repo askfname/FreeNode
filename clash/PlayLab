@@ -5,37 +5,44 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 新加坡【YouTube @Play实验室】, server: free.themars.top, port: 32103, type: ss, cipher: chacha20-ietf-poly1305, password: b89b39c2-dc8d-4595-a4c5-54b4fbab3fc2, udp: true}
-  - {name: 香港【YouTube @Play实验室】, server: h961359.waihuizhibiaowang.com, port: 13543, type: trojan, password: d0d24d5b-54ae-40a0-ab68-889dbd4b8a66, sni: h961359.waihuizhibiaowang.com, skip-cert-verify: true, udp: true}
-  - {name: 台湾【YouTube @Play实验室】, server: 120.241.46.186, port: 65214, type: trojan, password: 9e5ddf6d-60de-3672-a690-7bbd9534a7e3, skip-cert-verify: true, udp: true}
-  - {name: 日本【YouTube @Play实验室】, server: g7z35c66m.ns28bdh90.y2hd6jq1t.soabgo.com, port: 26001, type: vmess, uuid: FF5D3BF5-1296-FB0A-4596-B3CD0C884200, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 日本【YouTube @Play实验室】 2, server: 218.98.15.203, port: 65218, type: trojan, password: 9e5ddf6d-60de-3672-a690-7bbd9534a7e3, skip-cert-verify: true, udp: true}
-  - {name: 日本【YouTube @Play实验室】 3, server: jp3.chuqiangtou.net, port: 4003, type: trojan, password: TJCfE7Mx2YcA8kX8zg, sni: jp3.chuqiangtou.net, skip-cert-verify: true, udp: true}
-  - {name: 美国【YouTube @Play实验室】, server: us3.chuqiangtou.net, port: 4003, type: trojan, password: TJCfE7Mx2YcA8kX8zg, sni: us3.chuqiangtou.net, skip-cert-verify: true, udp: true}
-  - {name: 美国【YouTube @Play实验室】 2, server: cf.yxjnode.com, port: 80, type: vmess, uuid: 09c1d32d-4458-4ebf-b36d-4dd732bae3aa, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /yxzbp, ws-headers: {Host: dp4.yxjnode.com}, udp: true}
-  - {name: 美国【YouTube @Play实验室】 3, server: cf-dx-dns.sharecentre.online, port: 80, type: vmess, uuid: 2d5d8b9c-8ec4-4a37-b610-78e71e13eaef, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /shirker, ws-headers: {Host: dp1.scproxy.top}, udp: true}
-  - {name: 美国【YouTube @Play实验室】 4, server: 23.224.15.181, port: 50002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 美国【YouTube @Play实验室】 5, server: tech.noaries.de, port: 80, type: vmess, uuid: 2d5d8b9c-8ec4-4a37-b610-78e71e13eaef, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /shirker, ws-headers: {Host: nl.sharecentrepro.com}, udp: true}
-  - {name: 美国【YouTube @Play实验室】 6, server: 173.82.55.92, port: 34412, type: vmess, uuid: 82620a6e-dbfd-4d57-8a59-9004a4bb9e92, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 美国【YouTube @Play实验室】 7, server: 104.25.121.213, port: 2083, type: vmess, uuid: e883ff76-3bb4-4008-c068-6b5b1d960ea7, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /qwer02, ws-headers: {Host: uyaa.vtcss.top}, udp: true}
-  - {name: 美国【YouTube @Play实验室】 8, server: 141.101.123.249, port: 80, type: vmess, uuid: 1eeeff8d-0028-46ec-ec2a-d39401047fbb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /qwer, ws-headers: {Host: tou.vtcss.top}, udp: true}
-  - {name: 美国【YouTube @Play实验室】 9, server: cf-lt.sharecentre.online, port: 80, type: vmess, uuid: 2d5d8b9c-8ec4-4a37-b610-78e71e13eaef, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /shirker, ws-headers: {Host: gcore.ilovescp.com}, udp: true}
-  - {name: 美国【YouTube @Play实验室】 10, server: cf.yxjnode.com, port: 80, type: vmess, uuid: 09c1d32d-4458-4ebf-b36d-4dd732bae3aa, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /yxzbp, ws-headers: {Host: dp1.yxjnode.com}, udp: true}
-  - {name: 美国【YouTube @Play实验室】 11, server: cf-lt.sharecentre.online, port: 80, type: vmess, uuid: 2d5d8b9c-8ec4-4a37-b610-78e71e13eaef, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /shirker, ws-headers: {Host: dp4.scproxy.top}, udp: true}
-  - {name: 卢森堡【YouTube @Play实验室】, server: cf.yxjnode.com, port: 80, type: vmess, uuid: 09c1d32d-4458-4ebf-b36d-4dd732bae3aa, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /yxzbp, ws-headers: {Host: buyvm1.yxjnode.com}, udp: true}
-  - {name: 德国【YouTube @Play实验室】, server: 218.98.15.203, port: 65215, type: trojan, password: 9e5ddf6d-60de-3672-a690-7bbd9534a7e3, skip-cert-verify: true, udp: true}
+  - {name: 印度【YouTube @Play实验室】, server: 152.70.74.66, port: 443, type: trojan, password: d906afe5-7c3c-4ddc-aaa4-61c154a82e5e, skip-cert-verify: true, udp: true}
+  - {name: 新加坡【YouTube @Play实验室】, server: 104.18.1.196, port: 80, type: vmess, uuid: 0425d010-19f6-11ee-8be4-1577c1651679, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: sg.xmbb.net}}, udp: true}
+  - {name: 香港【YouTube @Play实验室】, server: in05.my1188.org, port: 63099, type: vmess, uuid: 275b3528-54b5-3620-ab13-a079c7677df9, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: mugua-hk-a.weibo-cdn.best}}, udp: true}
+  - {name: 香港【YouTube @Play实验室】 2, server: in05.my1188.org, port: 63082, type: vmess, uuid: 275b3528-54b5-3620-ab13-a079c7677df9, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: hkt3-cdn.tencent.best}}, udp: true}
+  - {name: 香港【YouTube @Play实验室】 3, server: in06.my1188.org, port: 63090, type: vmess, uuid: 275b3528-54b5-3620-ab13-a079c7677df9, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
+  - {name: 香港【YouTube @Play实验室】 4, server: aaaa.aaaa.gay, port: 50063, type: trojan, password: 36e7d02b-9e7e-360d-9a7d-85b00e43f660, sni: hktddns.doubledou.icu, skip-cert-verify: true, udp: true}
+  - {name: 台湾【YouTube @Play实验室】, server: rochinet.fullaccesstointernet.cn.eu.org, port: 443, type: vmess, uuid: 65864938-ab50-4efa-bc6a-084f42a8de63, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /freedom, headers: {Host: rochinet.fullaccesstointernet.cn.eu.org}}, udp: true}
+  - {name: 美国【YouTube @Play实验室】, server: in05.my1188.org, port: 63014, type: vmess, uuid: 275b3528-54b5-3620-ab13-a079c7677df9, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: us01.wechat-cdn-us01.one}}, udp: true}
+  - {name: 美国【YouTube @Play实验室】 2, server: 192.74.243.34, port: 50246, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 美国【YouTube @Play实验室】 3, server: 142.4.99.91, port: 43379, type: vmess, uuid: b65da4af-a12a-4a59-9316-4549e12ba62c, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 美国【YouTube @Play实验室】 4, server: cf-lt.sharecentre.online, port: 80, type: vmess, uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: lv3.sharecentrepro.org}}, udp: true}
+  - {name: 美国【YouTube @Play实验室】 5, server: 107.167.16.101, port: 47074, type: vmess, uuid: b74f4afa-1a57-4aff-b7e5-8ad5ea33566f, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 美国【YouTube @Play实验室】 6, server: 45.92.160.22, port: 47839, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 美国【YouTube @Play实验室】 7, server: 140.99.57.22, port: 41912, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 美国【YouTube @Play实验室】 8, server: 172.247.148.88, port: 53302, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 美国【YouTube @Play实验室】 9, server: 140.99.128.114, port: 58455, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 美国【YouTube @Play实验室】 10, server: 23.224.15.181, port: 50002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 美国【YouTube @Play实验室】 11, server: 192.74.236.19, port: 41866, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 美国【YouTube @Play实验室】 12, server: 142.4.97.74, port: 44942, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 美国【YouTube @Play实验室】 13, server: 0kxedm1x8q8lksmj13.xingbayun.buzz, port: 443, type: vmess, uuid: 9bd3cf22-f244-4ee3-9555-ab232fefaa22, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /zh-cn, headers: {Host: 0kxedm1x8q8lksmj13.xingbayun.buzz}}, udp: true}
+  - {name: 美国【YouTube @Play实验室】 14, server: 137.175.11.145, port: 33002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 美国【YouTube @Play实验室】 15, server: 216.52.59.50, port: 20458, type: trojan, password: m8krTirthj, skip-cert-verify: true, udp: true}
+  - {name: 美国【YouTube @Play实验室】 16, server: 163.123.192.146, port: 443, type: trojan, password: 6f9d4a83-4682-48d5-a217-7938860b0070, sni: 4-193-105-141.nhost.00cdn.com, skip-cert-verify: true, udp: true}
+  - {name: 荷兰【YouTube @Play实验室】, server: 156.225.67.105, port: 49101, type: vmess, uuid: 29a5d48e-24f1-48fd-a5e1-9a46cb31032f, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 法国【YouTube @Play实验室】, server: 156.249.18.69, port: 48123, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
+      - 印度【YouTube @Play实验室】
       - 新加坡【YouTube @Play实验室】
       - 香港【YouTube @Play实验室】
+      - 香港【YouTube @Play实验室】 2
+      - 香港【YouTube @Play实验室】 3
+      - 香港【YouTube @Play实验室】 4
       - 台湾【YouTube @Play实验室】
-      - 日本【YouTube @Play实验室】
-      - 日本【YouTube @Play实验室】 2
-      - 日本【YouTube @Play实验室】 3
       - 美国【YouTube @Play实验室】
       - 美国【YouTube @Play实验室】 2
       - 美国【YouTube @Play实验室】 3
@@ -47,20 +54,26 @@ proxy-groups:
       - 美国【YouTube @Play实验室】 9
       - 美国【YouTube @Play实验室】 10
       - 美国【YouTube @Play实验室】 11
-      - 卢森堡【YouTube @Play实验室】
-      - 德国【YouTube @Play实验室】
+      - 美国【YouTube @Play实验室】 12
+      - 美国【YouTube @Play实验室】 13
+      - 美国【YouTube @Play实验室】 14
+      - 美国【YouTube @Play实验室】 15
+      - 美国【YouTube @Play实验室】 16
+      - 荷兰【YouTube @Play实验室】
+      - 法国【YouTube @Play实验室】
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
+      - 印度【YouTube @Play实验室】
       - 新加坡【YouTube @Play实验室】
       - 香港【YouTube @Play实验室】
+      - 香港【YouTube @Play实验室】 2
+      - 香港【YouTube @Play实验室】 3
+      - 香港【YouTube @Play实验室】 4
       - 台湾【YouTube @Play实验室】
-      - 日本【YouTube @Play实验室】
-      - 日本【YouTube @Play实验室】 2
-      - 日本【YouTube @Play实验室】 3
       - 美国【YouTube @Play实验室】
       - 美国【YouTube @Play实验室】 2
       - 美国【YouTube @Play实验室】 3
@@ -72,8 +85,13 @@ proxy-groups:
       - 美国【YouTube @Play实验室】 9
       - 美国【YouTube @Play实验室】 10
       - 美国【YouTube @Play实验室】 11
-      - 卢森堡【YouTube @Play实验室】
-      - 德国【YouTube @Play实验室】
+      - 美国【YouTube @Play实验室】 12
+      - 美国【YouTube @Play实验室】 13
+      - 美国【YouTube @Play实验室】 14
+      - 美国【YouTube @Play实验室】 15
+      - 美国【YouTube @Play实验室】 16
+      - 荷兰【YouTube @Play实验室】
+      - 法国【YouTube @Play实验室】
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -91,12 +109,13 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
+      - 印度【YouTube @Play实验室】
       - 新加坡【YouTube @Play实验室】
       - 香港【YouTube @Play实验室】
+      - 香港【YouTube @Play实验室】 2
+      - 香港【YouTube @Play实验室】 3
+      - 香港【YouTube @Play实验室】 4
       - 台湾【YouTube @Play实验室】
-      - 日本【YouTube @Play实验室】
-      - 日本【YouTube @Play实验室】 2
-      - 日本【YouTube @Play实验室】 3
       - 美国【YouTube @Play实验室】
       - 美国【YouTube @Play实验室】 2
       - 美国【YouTube @Play实验室】 3
@@ -108,8 +127,13 @@ proxy-groups:
       - 美国【YouTube @Play实验室】 9
       - 美国【YouTube @Play实验室】 10
       - 美国【YouTube @Play实验室】 11
-      - 卢森堡【YouTube @Play实验室】
-      - 德国【YouTube @Play实验室】
+      - 美国【YouTube @Play实验室】 12
+      - 美国【YouTube @Play实验室】 13
+      - 美国【YouTube @Play实验室】 14
+      - 美国【YouTube @Play实验室】 15
+      - 美国【YouTube @Play实验室】 16
+      - 荷兰【YouTube @Play实验室】
+      - 法国【YouTube @Play实验室】
 rules:
  - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
  - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
